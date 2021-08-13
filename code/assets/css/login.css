@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-.loginbox {
+.loginAndRegbox {
     width: 400px;
     height: 310px;
     background-color: #fff;
@@ -21,4 +21,35 @@ body {
 .titlebox {
     height: 60px;
     background: url(../images/login_title.png) no-repeat center;
+}
+
+.reg-box {
+    display: none;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-input {
+    padding-left: 32px !important;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
