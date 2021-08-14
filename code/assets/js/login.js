@@ -81,7 +81,7 @@ $(function() {
                 // 保存登录成功得到的token字符串
                 localStorage.setItem("token", res.token);
                 // 跳转到后台页面
-                location.href = "/index.html";
+                location.href = "index.html";
             },
         });
     });
